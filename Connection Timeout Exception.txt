@@ -1,0 +1,9 @@
+
+What is this Exception?
+Connection Timeout is a Common Exception while working with API. 
+Most of the peoples thinks this is Exeption that comes when we you  arn't connnected with internet but this is not the case.
+Connecton Timeout Exception is a kind of request in front of server to response. for instance there is too much load on server and the application completed its connection time but didn't get respone this is the case when we get connection timeout Exception.
+
+How to Fix ?
+Before requesting on server we have to define the connection timeout first a normal time that a server expect is 5 sec that would be 50000 milli sec.
+Remember we always define time in milli seconds. if the application failed to get response within this time we have to increase time and the issue will get resolved.... 
