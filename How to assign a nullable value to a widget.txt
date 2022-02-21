@@ -1,0 +1,9 @@
+Null Safety is an amazing feature of dart that makes flutter more Powerfull and Robust .
+While working with null safety compiler show a compile time error if you are using a nullable value tha might be null in running state of your Application.
+So to deal with this situation null safety comes in handy. and we have plenty of null check operator to overcome this issue.
+Before compiling the code it is the responsibility of developer to check is there any value that can be null and how to deal with.
+For Example: I want to show a String to UI that can be null and i have to assign some other value to this String if it is null.
+
+
+Text(user.name); => Text is the widget that is responsible for showing text on UI and i have to assign some other value if it null
+Text(user?.name??"No Username"); => And this is how i can tackle this error. 
